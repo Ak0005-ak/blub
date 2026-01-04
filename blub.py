@@ -103,7 +103,7 @@ if uploaded_files:
             progress_bar.progress(idx / len(uploaded_files))
         
         st.success(f"Successfully processed {len(st.session_state.final_excels)} files!")
-        st.balloons()
+        st.snow()
 
 # --------------------------------------------------
 # 5. ZIP & DOWNLOAD SECTION (FIXED DUPLICATE ID)
@@ -137,5 +137,6 @@ if st.session_state.final_excels:
             )
 
 st.markdown('<div class="footer">🌊 Blub Blub Blubbbbbb Version 3.0.0.8 💦</div>', unsafe_allow_html=True)
+
 
 
