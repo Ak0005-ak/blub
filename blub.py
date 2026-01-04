@@ -73,7 +73,7 @@ if uploaded_files:
 
                 # --- OTHER GRID VARIABLES ---
                 else:
-                    target_vars = ['sst', 'swh', 'mwd', 'hmax']
+                    target_vars = ['sst', 'swh', 'mwd', 'hmax','shww']
                     found_var = next((v for v in target_vars if v in vars_present), None)
                     
                     if not found_var:
@@ -136,3 +136,4 @@ if st.session_state.final_excels:
             )
 
 st.markdown('<div class="footer">🌊 Blub Blub Blubbbbbb Version 3.0.0.8 💦</div>', unsafe_allow_html=True)
+
