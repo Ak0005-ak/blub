@@ -53,7 +53,7 @@ if uploaded_files:
 
                 vars_present = list(ds.data_vars)
 
-                times = pd.to_datetime(ds["time"].values)
+                times = pd.to_datetime(ds["valid_time"].values)
                 hours = times.hour
 
                 lat = ds["latitude"].values
@@ -162,3 +162,4 @@ st.markdown(
     '<div class="footer">🌊 Blub Blub Blubbbbbb Version 3.0.0.8 💦</div>',
     unsafe_allow_html=True
 )
+
