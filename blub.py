@@ -1,5 +1,5 @@
 import streamlit as st
-from xarray as xr
+import xarray as xr
 import pandas as pd
 import numpy as np
 import io
@@ -137,6 +137,7 @@ if st.session_state.final_excels:
             )
 
 st.markdown('<div class="footer">🌊 Blub Blub Blubbbbbb Version 3.0.0.8 💦</div>', unsafe_allow_html=True)
+
 
 
 
