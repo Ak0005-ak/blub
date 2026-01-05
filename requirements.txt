@@ -1,5 +1,6 @@
 streamlit
 numpy
 pandas
-netCDF4
+xarray
+h5netcdf
 openpyxl
