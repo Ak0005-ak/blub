@@ -1,6 +1,9 @@
 streamlit
+xarray
+netCDF4
+h5netcdf
+h5py
 numpy
 pandas
-xarray
-h5netcdf
+scipy
 openpyxl
